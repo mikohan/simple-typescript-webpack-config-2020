@@ -1,1 +1,0 @@
-(()=>{"use strict";console.log("from second file"),console.log("Hello typescript from Index"),console.log("Say hello from second file")})();
