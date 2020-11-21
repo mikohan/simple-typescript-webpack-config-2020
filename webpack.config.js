@@ -6,6 +6,7 @@ module.exports = {
   entry: './src/index.ts',
   module: {
     rules: [
+      // { test: /\.(jpe?g|png|gif|ico)$/i, loader: 'file?name=[name].[ext]' },
       {
         test: /\.ts$/,
         include: [path.resolve(__dirname, 'src')],
@@ -44,6 +45,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'public', 'index.html'),
+      favicon: 'assets/favicon.png',
     }),
   ],
 };

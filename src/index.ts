@@ -1,5 +1,6 @@
 import './styles/index.scss';
 import { MyClass } from '~/newDelete';
+// import '../assets/favicon.png';
 
 console.log('Typescript Simple Webpack Config');
 
